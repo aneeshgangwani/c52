@@ -1,0 +1,74 @@
+.header *{
+    border: solid;
+    margin: 20px;
+   // padding: 20px;
+}
+
+h1{
+    color:crimson;
+    background-color: turquoise;
+   // font-style: oblique;
+}
+
+.header{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.menu{
+    font-size: 10mm;
+    padding-top: 20px;
+}
+
+.grid{
+    display: flex;
+    color: rgb(255, 240, 252);
+    justify-content: center;
+}
+
+body{
+    background-color: cyan;
+    font-family: Georgia;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link{
+    color: darkorchid;
+}
+
+a:visited{
+    color: deeppink;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.elements{
+    position : relative;
+}
+
+.elements p{
+ position: absolute;
+ top:50%;
+ left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.elements:hover p{
+    opacity: 1;
+}
+
+.elements:hover img{
+    opacity: 0.33;
+}
